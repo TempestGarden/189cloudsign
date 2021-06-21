@@ -3,7 +3,7 @@ name: Auto run
 on:
   workflow_dispatch:
   schedule:
-    - cron: 20 21 * * *
+    - cron: 1 2,12 * * *
   watch:
     types: started
 
